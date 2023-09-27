@@ -1,0 +1,141 @@
+@charset "UTF-8";
+  @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+  }
+  body,html {
+    width: 100vw;
+    height: 100vh;
+  }
+body {
+    background-color: pink;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+input {
+    outline: none;
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 570px;
+    overflow: hidden;
+    text-align: center;
+    transition: width 2s, height 2s;
+    transition-timing-function: ease;
+}
+#img-2{display: none;}
+#img-3{display: none;}
+#img {
+    display: block;
+    width: 100%;
+    height: 250px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.formulario p {
+    text-align: justify;
+    text-indent: 10px;
+    font-size: 1em;
+}
+.formulario h1 {
+    font-size: 1.3em;
+}
+
+.email {
+    background-color: palevioletred;
+    padding: 5px;
+
+}
+.email > span {
+    transform: translate(-4px, 5px);
+    font-size: 1.5em;
+}
+.email:hover {
+    background-color: purple;
+    color: white;
+    
+}
+
+#iemail {
+    border-radius: 7px;
+    text-align: center;
+    padding: 3px;
+    font-size: 1em;
+    width: 80%;
+    border: 1px solid black;
+    background-color: rgb(218, 181, 221);
+
+}
+#iemail:focus-within {
+    background-color: white;
+}
+
+
+.senha {
+    background-color: palevioletred;
+    margin-top: 12px;
+    padding: 5px;
+}
+.senha > span {
+    transform: translate(-4px, 5px);
+    font-size: 1.5em;
+}
+.senha:hover {
+    background-color: purple;
+    color: white;
+}
+#isenha {
+    text-align: center;
+    border-radius: 7px;
+    padding: 3px;
+    font-size: 1em;
+    width: 80%;
+    border: 1px solid black;
+    background-color: rgb(218, 181, 221);
+}
+#isenha:focus-within {
+    background-color: white;
+}
+
+.inputs {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+#login {
+    display: block;
+    width: 70%;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 7px;
+    padding: 3px;
+    font-size: 1.3em;
+
+}
+#login:hover {
+    background-color: purple;
+    color: white;
+}
+.ancora {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+.ancora:hover {
+    text-decoration: underline;
+
+}
